@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/178f9fea04.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Picture/favicon.ico" class="logo" alt="LIZ">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Hi, I'm <span>Elizabeth Wangui</span> <br>  a front-end developer</h1>
+                </div>
+            </div>
+        </div>
+<!----- About ----->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Picture/IMG4.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur tempora voluptatem nihil a dicta voluptates quis ullam, saepe accusamus veritatis sed esse numquam! Voluptatibus quod eaque sapiente non minus!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Developing web app</li>
+                                <li><span>Database Design</span><br>Designing and managing databases</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 Jan - May</span><br>Attachment at Brance Technologies Limited</li>
+                                <li><span>2021 Jan - April</span><br>IT Intern at Maanzoni Lodge</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019 - 2024</span><br>BSc in computer science at Machakos University</li>
+                                <li><span>2015 - 2018</span><br>High School at St Monica Munyaka Girls</li>
+                                <li><span>2004 - 2014</span><br>Primary School at St Dorcas Memorial Academy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-----------services----------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2> Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Quaerat quis ratione totam perferendis voluptatum debitis placeat quidem eveniet magnam ad, 
+                            veniam hic harum molestias, libero laboriosam nesciunt. Atque, suscipit culpa!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> UI/UX Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Quaerat quis ratione totam perferendis voluptatum debitis placeat quidem eveniet magnam ad, 
+                            veniam hic harum molestias, libero laboriosam nesciunt. Atque, suscipit culpa!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2> Database Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                            Quaerat quis ratione totam perferendis voluptatum debitis placeat quidem eveniet magnam ad, 
+                            veniam hic harum molestias, libero laboriosam nesciunt. Atque, suscipit culpa!</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-----------portfolio----------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="Project-list">
+                    <div class="project">
+                        <img src="Picture/ux.jpeg">
+                        <div class="layer">
+                            <h3>Websites Design</h3>
+                            <p>Advertising website to help the company reach its audience and promote its products.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="Picture/vr.jpeg">
+                        <div class="layer">
+                            <h3>Virtual Reality in Fashion</h3>
+                            <p> VR technology for virtual fashion shows, allowing customers to try on and buy clothes using VR headsets.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="Picture/iot.jpg">
+                        <div class="layer">
+                            <h3>Smart Waste Bin</h3>
+                            <p>IoT-enabled smart waste bin with Wi-Fi to report waste levels and notify collection services when full.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-----------contact----------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>wanguielizabeth138@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+254713109986</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/Waruguru78"><i class="fa-brands fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/in/elizabeth-wangui-27232a230/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://twitter.com/Elizabe69322062"><i class="fa-brands fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/kimaruliz/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="WanguiCV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; Elizabeth <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    </body>
+
+</html>
